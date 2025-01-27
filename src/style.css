@@ -1,0 +1,131 @@
+.app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.pexels.com/photos/583848/pexels-photo-583848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover; /* Ensures the image covers the entire background while maintaining the aspect ratio */
+    background-position: center center; /* Keeps the image centered */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    height: 100%; /* Ensures the height takes up the entire page */
+    min-height: 100vh; /* Ensures at least full viewport height */
+  }
+  h1 {
+    text-align: center;
+    margin-top: 50px; /* Adjust the margin to move it down */
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h1 .task {
+    color: #dc3545; /* Red for "Task" */
+  }
+  
+  h1 .sphere {
+    color: #28a745; /* Green for "uddy" */
+  }
+  
+  h1 .s {
+    color:#ffc107; /* Yellow for "B" */
+  }
+  
+  .home {
+    padding: 20px;
+  }
+  
+  .task-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .task-input {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-task-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-task-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Task Sections */
+  .task-sections {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .task-section {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 30%;
+    padding: 10px;
+    background-color: #f9f9f9; /* Plain background color for all task sections */
+  }
+  
+  /* To-Do Section - Red Theme */
+  .task-section:nth-child(1) {
+    background-color: #ffe6e6; /* Light red background */
+    border-color: #dc3545; /* Red border */
+  }
+  
+  .task-section:nth-child(1) h2 {
+    color: #dc3545; /* Red title */
+  }
+  
+  /* Ongoing Section - Yellow Theme */
+  .task-section:nth-child(2) {
+    background-color: #fffbea; /* Light yellow background */
+    border-color: #ffc107; /* Yellow border */
+  }
+  
+  .task-section:nth-child(2) h2 {
+    color: #ffc107; /* Yellow title */
+  }
+  
+  /* Completed Section - Green Theme */
+  .task-section:nth-child(3) {
+    background-color: #e6ffe6; /* Light green background */
+    border-color: #28a745; /* Green border */
+  }
+  
+  .task-section:nth-child(3) h2 {
+    color: #28a745; /* Green title */
+  }
+  
+  .task-section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .task-action-dropdown {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .clear-all-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #dc3545; /* Red color for Clear All */
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .clear-all-button:hover {
+    background-color: #c82333;
+  }
