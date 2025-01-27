@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Jakeer303/TaskSphere---Task-Management-App.git/static/css/main.1b1641f2.css",
-    "main.js": "/Jakeer303/TaskSphere---Task-Management-App.git/static/js/main.33d2605b.js",
-    "index.html": "/Jakeer303/TaskSphere---Task-Management-App.git/index.html",
-    "main.1b1641f2.css.map": "/Jakeer303/TaskSphere---Task-Management-App.git/static/css/main.1b1641f2.css.map",
-    "main.33d2605b.js.map": "/Jakeer303/TaskSphere---Task-Management-App.git/static/js/main.33d2605b.js.map"
+    "main.css": "/TaskSphere---Task-Management-App/static/css/main.1b1641f2.css",
+    "main.js": "/TaskSphere---Task-Management-App/static/js/main.33d2605b.js",
+    "index.html": "/TaskSphere---Task-Management-App/index.html",
+    "main.1b1641f2.css.map": "/TaskSphere---Task-Management-App/static/css/main.1b1641f2.css.map",
+    "main.33d2605b.js.map": "/TaskSphere---Task-Management-App/static/js/main.33d2605b.js.map"
   },
   "entrypoints": [
     "static/css/main.1b1641f2.css",
